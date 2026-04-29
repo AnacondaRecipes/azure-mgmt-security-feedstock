@@ -26,7 +26,7 @@ requirements:
     - azure-common >=1.1,<2
     - azure-mgmt-core >=1.3.2,<2.0.0
 
-tests:
+test:
   imports:
     - azure.mgmt.security
     - azure.mgmt.security.aio
