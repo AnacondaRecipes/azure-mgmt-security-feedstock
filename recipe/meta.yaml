@@ -1,13 +1,13 @@
 {% set name = "azure-mgmt-security" %}
-{% set version = "6.0.0" %}
+{% set version = "7.0.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/azure-mgmt-security-{{ version }}.tar.gz
-  sha256: ceafc1869899067110bd830c5cc98bc9b8f32d8ea840ca1f693b1a5f52a5f8b0
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5912eed7e9d3758fdca8d26e1dc26b41943dc4703208a1184266e2c252e1ad66
 
 build:
   number: 0
